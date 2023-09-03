@@ -1,4 +1,4 @@
-﻿namespace HackerRankConsoleApp
+﻿namespace HackerRankConsoleApp.ProblemSolving
 {
     public class PlusAndMinusCalcRatio
     {

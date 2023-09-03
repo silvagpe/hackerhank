@@ -8,32 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\rafae\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/silvagpe/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projetos\\HackerRank\\HackerRankConsoleApp\\HackerRankConsoleApp\\HackerRankConsoleApp.csproj",
+      "projectUniqueName": "/Users/silvagpe/projetos/github/hackerhank/HackerRankConsoleApp/HackerRankConsoleApp/HackerRankConsoleApp.csproj",
       "projectName": "HackerRankConsoleApp",
-      "projectPath": "D:\\projetos\\HackerRank\\HackerRankConsoleApp\\HackerRankConsoleApp\\HackerRankConsoleApp.csproj",
-      "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-      "outputPath": "D:\\projetos\\HackerRank\\HackerRankConsoleApp\\HackerRankConsoleApp\\obj\\",
+      "projectPath": "/Users/silvagpe/projetos/github/hackerhank/HackerRankConsoleApp/HackerRankConsoleApp/HackerRankConsoleApp.csproj",
+      "packagesPath": "/Users/silvagpe/.nuget/packages/",
+      "outputPath": "/Users/silvagpe/projetos/github/hackerhank/HackerRankConsoleApp/HackerRankConsoleApp/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/silvagpe/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://gitlab.com/api/v4/groups/11619148/-/packages/nuget/index.json": {}
       },
@@ -68,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
       }
     }
   }
