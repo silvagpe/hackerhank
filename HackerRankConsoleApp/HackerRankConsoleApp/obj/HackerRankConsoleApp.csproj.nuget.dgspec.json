@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projetos\\HackerRank\\HackerRankConsoleApp\\HackerRankConsoleApp\\HackerRankConsoleApp.csproj": {}
+    "d:\\projetos\\github\\hackerhank\\HackerRankConsoleApp\\HackerRankConsoleApp\\HackerRankConsoleApp.csproj": {}
   },
   "projects": {
-    "D:\\projetos\\HackerRank\\HackerRankConsoleApp\\HackerRankConsoleApp\\HackerRankConsoleApp.csproj": {
+    "d:\\projetos\\github\\hackerhank\\HackerRankConsoleApp\\HackerRankConsoleApp\\HackerRankConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projetos\\HackerRank\\HackerRankConsoleApp\\HackerRankConsoleApp\\HackerRankConsoleApp.csproj",
+        "projectUniqueName": "d:\\projetos\\github\\hackerhank\\HackerRankConsoleApp\\HackerRankConsoleApp\\HackerRankConsoleApp.csproj",
         "projectName": "HackerRankConsoleApp",
-        "projectPath": "D:\\projetos\\HackerRank\\HackerRankConsoleApp\\HackerRankConsoleApp\\HackerRankConsoleApp.csproj",
+        "projectPath": "d:\\projetos\\github\\hackerhank\\HackerRankConsoleApp\\HackerRankConsoleApp\\HackerRankConsoleApp.csproj",
         "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-        "outputPath": "D:\\projetos\\HackerRank\\HackerRankConsoleApp\\HackerRankConsoleApp\\obj\\",
+        "outputPath": "d:\\projetos\\github\\hackerhank\\HackerRankConsoleApp\\HackerRankConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

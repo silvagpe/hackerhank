@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projetos\\HackerRank\\HackerRankConsoleApp\\HackerRankConsoleApp\\HackerRankConsoleApp.csproj",
+      "projectUniqueName": "D:\\projetos\\github\\hackerhank\\HackerRankConsoleApp\\HackerRankConsoleApp\\HackerRankConsoleApp.csproj",
       "projectName": "HackerRankConsoleApp",
-      "projectPath": "D:\\projetos\\HackerRank\\HackerRankConsoleApp\\HackerRankConsoleApp\\HackerRankConsoleApp.csproj",
+      "projectPath": "D:\\projetos\\github\\hackerhank\\HackerRankConsoleApp\\HackerRankConsoleApp\\HackerRankConsoleApp.csproj",
       "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-      "outputPath": "D:\\projetos\\HackerRank\\HackerRankConsoleApp\\HackerRankConsoleApp\\obj\\",
+      "outputPath": "D:\\projetos\\github\\hackerhank\\HackerRankConsoleApp\\HackerRankConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
