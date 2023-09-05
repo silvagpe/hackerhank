@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using HackerRankConsoleApp.InterviewPreparationKit;
+using HackerRankConsoleApp.InterviewPreparationKit.Arrays;
 
 Console.WriteLine("https://www.hackerrank.com/");
 
@@ -10,4 +10,7 @@ Console.WriteLine("https://www.hackerrank.com/");
 //new OrderArray().Start();
 //new TimeConversion().Start();
 // new SockMerchant().Start();
-new CountingValleys().Start();
+//new CountingValleys().Start();
+//new JumpingOnTheClouds().Start();
+//new RepeatedString().Start();
+new Test2dArray().Start();
