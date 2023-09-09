@@ -5,27 +5,26 @@
     /// </summary>
     internal class NewYearChaos
     {
-        private static int memTests = -1;
-        private static int numOfPeople = 0;
-        private static List<string> Results = new List<string>();
 
         public void Start()
         {
 
+            Console.WriteLine("New year chaos");
+
             var tests = new List<List<int>>
             {
-                new List<int>() { 2 },
+                //new List<int>() { 2 },
                 //new List<int>() { 1,2,5,3,4,7,8,6 }
                 //new List<int>() { 1,2,5,3,7,8,6,4 }
-                new List<int>() { 8 },
+                //new List<int>() { 8 },
                 new List<int>() { 5,1,2,3,7,8,6,4 },
-                new List<int>() { 8 },
+                //new List<int>() { 8 },
                 new List<int>() { 1,2,5,3,7,8,6,4 }
             };
 
             foreach (var test in tests)
             {
-                minimumBribes(test);
+                MinimumBribes2(test);
             }
         }
 
@@ -47,12 +46,12 @@
             }
 
             if (chaotic)
-            {
-                Results.Add("Too chaotic");
+            {                
+                Console.WriteLine("Too chaotic");
             }
             else
             {
-                Results.Add(bribes.ToString());
+                Console.WriteLine(bribes);
             }
 
         }
@@ -85,12 +84,12 @@
             }
 
             if (chaotic)
-            {
-                Results.Add("Too chaotic");
+            {                
+                Console.WriteLine("Too chaotic");
             }
             else
             {
-                Results.Add(bribes.ToString());
+                Console.WriteLine(bribes);
             }
         }
 
