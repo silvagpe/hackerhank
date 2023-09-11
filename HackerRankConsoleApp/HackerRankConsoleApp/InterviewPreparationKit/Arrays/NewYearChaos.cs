@@ -17,14 +17,14 @@
                 //new List<int>() { 1,2,5,3,4,7,8,6 }
                 //new List<int>() { 1,2,5,3,7,8,6,4 }
                 //new List<int>() { 8 },
-                new List<int>() { 5,1,2,3,7,8,6,4 },
+                //new List<int>() { 5,1,2,3,7,8,6,4 },
                 //new List<int>() { 8 },
                 new List<int>() { 1,2,5,3,7,8,6,4 }
             };
 
             foreach (var test in tests)
             {
-                MinimumBribes2(test);
+                minimumBribes(test);
             }
         }
 
@@ -43,10 +43,18 @@
                     chaotic = true;
                     break;
                 }
+
+                for (int j = Math.Max(0, originalPosition - 1); j < currentPosition; j++)
+                {
+                    if (q[j] > q[i])
+                    {
+                        bribes++;
+                    }
+                }
             }
 
             if (chaotic)
-            {                
+            {
                 Console.WriteLine("Too chaotic");
             }
             else
@@ -84,7 +92,7 @@
             }
 
             if (chaotic)
-            {                
+            {
                 Console.WriteLine("Too chaotic");
             }
             else
