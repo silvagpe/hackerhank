@@ -15,4 +15,5 @@ Console.WriteLine("https://www.hackerrank.com/");
 //new RepeatedString().Start();
 //new Test2dArray().Start();
 //new ArrayLeftRotation().Start();
-new NewYearChaos().Start();
+//new NewYearChaos().Start();
+new MinimumSwaps2().Start();

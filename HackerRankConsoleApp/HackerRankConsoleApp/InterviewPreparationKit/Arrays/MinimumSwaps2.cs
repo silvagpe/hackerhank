@@ -11,10 +11,9 @@
 
             var result = minimumSwaps(arr.ToArray());
 
-
-            Console.WriteLine($"Test 1: Numeber 4");
-            Console.WriteLine($"Array: 1 2 3 4 5");
-            Console.WriteLine($"Expected = 5 1 2 3 4 : Result {string.Join(" ", result)}");
+            Console.WriteLine($"Test:");
+            Console.WriteLine($"Array: {string.Join(',', arr)}");
+            Console.WriteLine($"Expected = 3 : Result {result}");
 
         }
 
@@ -22,7 +21,27 @@
         {
             int swaps = 0;
 
-            return 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] - 1 == i)
+                {
+                    continue;
+                }
+
+                for (int j = 0; j < arr.Length; j++)
+                {
+                    if (arr[j] - 1 == i)
+                    {
+                        int tmp = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = tmp;
+                        swaps++;
+                        break;
+                    }
+                }
+            }
+
+            return swaps;
         }
     }
 }
