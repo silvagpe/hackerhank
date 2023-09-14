@@ -21,6 +21,72 @@
         {
             int swaps = 0;
 
+            var indexMap = new List<int>(arr);
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                int current = arr[i];
+                int expected = i + 1;
+
+                if (current != expected)
+                {
+                    int currentIndex = indexMap.IndexOf(expected);
+
+                    arr[i] = arr[currentIndex];
+                    arr[currentIndex] = current;
+
+                    indexMap[i] = arr[i];
+                    indexMap[currentIndex] = current;
+
+                    swaps++;
+
+                }
+            }
+
+            Console.WriteLine(string.Join(',', indexMap.ToArray()));
+            Console.WriteLine(string.Join(',', arr));
+            return swaps;
+        }
+
+        private int minimumSwaps_2(int[] arr)
+        {
+            int swaps = 0;
+
+            var indexMap = new Dictionary<int, int>();
+            for (int i = 0; i < arr.Length; i++)
+            {
+                indexMap[arr[i]] = i;
+            }
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                int current = arr[i];
+                int expected = i + 1;
+
+                if (current != expected)
+                {
+                    int currentIndex = indexMap[expected];
+
+                    arr[i] = arr[currentIndex];
+                    arr[currentIndex] = current;
+
+                    indexMap[current] = currentIndex;
+                    indexMap[expected] = i;
+
+                    swaps++;
+
+                }
+            }
+
+            Console.WriteLine(string.Join(',', indexMap.ToArray()));
+            Console.WriteLine(string.Join(',', arr));
+            return swaps;
+        }
+
+        private int minimumSwaps_v1(int[] arr)
+        {
+            int swaps = 0;
+
             for (int i = 0; i < arr.Length; i++)
             {
                 if (arr[i] - 1 == i)
