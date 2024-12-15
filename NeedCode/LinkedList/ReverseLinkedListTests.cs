@@ -1,5 +1,5 @@
 
-using System.ComponentModel;
+namespace NeedCode.LinkedList;
 
 public class ListNode
 {
@@ -34,8 +34,9 @@ public class ListNode
 /// </summary>
 public class ReverseLinkedListTests
 {
-    private ListNode GetListNode(){
-        return null;
+    private ListNode GetListNode()
+    {
+        return new ListNode(0, new ListNode(1, new ListNode(2, new ListNode(3))));
     }
 
     [Fact]
@@ -45,8 +46,30 @@ public class ReverseLinkedListTests
 
         if (head.next == null)
         {
+            Assert.True(true);
             return;
         }
 
+        var stack = new Stack<ListNode>();
+
+        var ptr = head;
+        while (ptr != null)
+        {
+            stack.Push(ptr);
+            ptr = ptr.next;
+        }
+
+        ptr = stack.Pop();
+        while (stack.Count != 0)
+        {
+            var tmp = stack.Pop();
+
+
+        }
+
+        Assert.Equal(ptr.val, 3);
+        Assert.Equal(ptr.next.val, 2);
+        Assert.Equal(ptr.next.next.val, 1);
+        Assert.Equal(ptr.next.next.val, 0);
     }
 }
